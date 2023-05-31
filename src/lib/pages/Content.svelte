@@ -5,11 +5,16 @@
   import { primaryBackground } from "$lib/utils/constants";
 
   export let backgroundClass = primaryBackground;
+  import VideoToGif from "$lib/components/VideoToGif.svelte";
 </script>
 
 <Page id="content" title=" " {backgroundClass}>
   <Text>
-    Content!
+
+    
+    <VideoToGif/>
+
+
   </Text>
 </Page>
 
