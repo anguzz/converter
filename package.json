@@ -46,6 +46,7 @@
   },
   "type": "module",
   "dependencies": {
+    "compressorjs": "^1.2.1",
     "gif.js": "^0.2.0"
   }
 }

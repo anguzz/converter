@@ -6,13 +6,15 @@
 
   export let backgroundClass = primaryBackground;
   import VideoToGif from "$lib/components/VideoToGif.svelte";
+  import ImageCompressor from "$lib/components/ImageCompressor.svelte";
+
 </script>
 
 <Page id="content" title=" " {backgroundClass}>
   <Text>
 
-    
-    <VideoToGif/>
+    <ImageCompressor/>
+    <!--not func yet <VideoToGif/> -->
 
 
   </Text>
